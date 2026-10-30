@@ -40,6 +40,6 @@ public class Fire extends Emergency {
 
     @Override
     protected void onUnresolved(MarsColony colony) {
-        
+        laboratory.setStatus(FacilityStatus.DESTROYED);
     }
 }
